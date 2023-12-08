@@ -36,6 +36,7 @@ $result = mysqli_query($koneksi, $sql);
             echo "<td>{$row['jumlah_icecream']}</td>";
             echo "<td>Rp." . number_format($row['total_harga']) . "</td>";
             echo "<td><a href='hapus.php?id={$row['id']}'>Hapus</a></td>";
+            echo "<td><a href='edit.php?id={$row['id']}'>Edit</a></td>";
             echo "</tr>";
         }
 

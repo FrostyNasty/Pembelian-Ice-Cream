@@ -3,7 +3,7 @@ include('koneksi.php');
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    
+
     // Lakukan query penghapusan
     $sql_delete = "DELETE FROM pembelian WHERE id = $id";
     $result_delete = mysqli_query($koneksi, $sql_delete);

@@ -1,11 +1,13 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pembelian Ice Cream</title>
 </head>
+
 <body>
     <h1>Form Pembelian Ice Cream</h1>
     <form action="proses_pembelian.php" method="post">
@@ -26,5 +28,5 @@
         <a href="daftar_pembelian.php">Lihat Daftar Pembelian</a>
     </form>
 </body>
-</html>
 
+</html>
